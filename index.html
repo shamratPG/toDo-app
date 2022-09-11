@@ -15,12 +15,17 @@
 
     <div class="h-screen flex flex-col justify-center items-center bg-cyan-200">
         <div class="flex">
-            <input class="pl-4 mr-4 rounded outline-none" type="text" placeholder="Add new task">
-            <span class="text-4xl text-green-800 rounded pb-2 cursor-pointer">+</span>
+            <input id="new-task" class="pl-4 mr-4 rounded outline-none" type="text" placeholder="Add new task">
+            <span onclick="addItem()" class="text-4xl text-green-800 rounded pb-2 cursor-pointer">+</span>
         </div>
         <ul id="list" class="mt-6 w-1/6"></ul>
     </div>
 
+
+
+
+    <script src="js/getElement.js"></script>
+    <script src="js/addItem.js"></script>
 </body>
 
 </html>
